@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的首页</title>
+    <style type="text/css">
+        h2,p,td,a,caption,th{color:Snow}
+    </style>
+</head>
+<body background="wallhaven-e7ek7k.jpg">
+<!--
+           <h1>--<h6>:标题，标题独立占一行，分别表示1级-6级标题
+           <center>:居中显示，该标签在html5中已经不再建议使用了。
+           <input>:输入组件，该组件用来在页面上获取用户的输入。
+                   该组件有一个重要的属性:type，用来指定组件的样子。
+                   常见的值有:
+                   type="text":文本框
+                   type="password":密码框
+                   type="radio":单选框
+                   type="checkbox":复选框
+                   type="button":按钮
+       -->
+<center>
+   <img src="logo.png" align="center" width="300" height="126">
+    <br/>
+    <input type="text" size="32">
+    <input type="button" value="百度一下" ><br/>
+    <!-- 单选框和复选框可以用name属性将其划分为一组，名字相同的为一组。 -->
+    <p><h2>您的性别是:
+    <input type="radio" name="gender">男
+    <input type="radio" name="gender">女
+    <input type="radio" name="gender">隐藏</h2></p>
+    <hr>
+    <a href="https://www.taobao.com/">淘宝</a>
+    <a href="https://www.bilibili.com">BiliBili</a>
+    <hr>
+    <table border="1" align="center">
+        <caption>这是网站统计页面</caption>
+        <tr><th colspan="3">发生慎么事了</th></tr>
+        <tr>
+            <td><a href="/myweb/classTable.html">课程表</a></td>
+            <td><a href="/TeduStore/index.html">学子商城</a></td>
+            <td><a href="/myweb/reg.html">注册</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.taobao.com/">淘宝</a></td>
+            <td><a href="https://www.bilibili.com">BiliBili</a></td>
+            <td><a href="https://www.jd.com">京东</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.taobao.com/">淘宝</a></td>
+            <td><a href="https://www.bilibili.com">BiliBili</a></td>
+            <td><a href="https://www.jd.com">京东</a></td>
+        </tr>
+        <tr >
+            <td colspan="2">这是一个合并单元格</td>
+            <td>WTFFF</td>
+        </tr>
+    </table>
+</center>
+
+</body>
+</html>
